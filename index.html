@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link href="css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fuel consumption, celsius, kilowats, calucalator aplication">
+    <meta name="keywords" content="Fuel, consumption, celsius, kilowats, horsepower, fahrenheit, calucalator, aplication">
+    <meta name="author" content="M4T1J4"/>
+	<title>Web-aplications</title>
+</head>
+
+<body id="bodyhome">
+	<video autoplay loop id="video-background" muted plays-inline>
+		<source src="slike-video/FallingStars5Videvo.mp4" type="video/mp4">
+	</video>
+	<nav hidden> <a href="index.html">Home</a> 
+		<a id="menuIcon">
+			<img src="slike-video/menu-button-of-three-horizontal-lines.svg">
+		</a> <a id="contactnav" href="kontakt/formpage.html">Contact Developer</a>
+		<div class="wrapper">
+			<ul hidden>
+				<li><a href="html/fuel.html">Fuel-Consumption</a>
+				</li>
+				<li><a href="html/ks-kw.html">KW-KS</a>
+				</li>
+				<li><a href="html/c-f.html">C&deg;-F&deg;</a>
+				</li>
+				<li><a href="html/hrk-eur.html">HRK-EUR</a>
+				</li>
+			</ul>
+			<!-- ul end -->
+		</div>
+	</nav>
+	<!-- nav end -->
+	<main hidden id="homemain" class="wrapper anim">
+		<h1 id="h1home">Welcome</h1>
+		<p id="homeParagraph">Choose one of the applications from the navigation bar</p>
+	</main>
+	<!-- main end -->
+	<footer>
+		<p>Site by M4T1J4</p>
+	</footer>
+	<!-- footer end -->
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/skripta.js"></script>
+	<script src="js/anim.js"></script>
+	<!--script end-->
+</body>
+
+</html>

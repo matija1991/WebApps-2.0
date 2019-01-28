@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="../css/style.css" rel="stylesheet">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="M4T1J4"/>
+	<title>C&deg;-F&deg;</title>
+</head>
+
+<body>
+	<nav> <a href="../index.html">Home</a>
+		<a id="menuIcon">
+			<img src="../slike-video/menu-button-of-three-horizontal-lines.svg">
+		</a> <a id="contactnav" href="../kontakt/formpage.html">Contact Developer</a>
+		<div class="wrapper">
+			<ul hidden>
+				<li><a href="fuel.html">Fuel-Consumption</a>
+				</li>
+				<li><a href="ks-kw.html">KW-KS</a>
+				</li>
+				<li><a href="c-f.html">C&deg;-F&deg;</a>
+				</li>
+				<li><a href="hrk-eur.html">HRK-EUR</a>
+				</li>
+			</ul>
+			<!-- ul end -->
+		</div>
+	</nav>
+	<!-- nav end -->
+	<main hidden class="wrapper anim">
+		<div>
+			<h1>C&deg; --> F&deg;</h1> 
+			<label for="c">C&deg;</label>
+			<input id="c" type="text">
+			<br>
+			<button onclick="cf();">Calculate</button>
+		</div>
+		<!-- C -> F end -->
+		<div>
+			<h1>F&deg; --> C&deg;</h1> 
+			<label for="f">F&deg;</label>
+			<input id="f" type="text">
+			<br>
+			<button onclick="fc();">Calculate</button>
+		</div>
+		<!-- F -> C end -->
+	</main>
+	<!-- main form end -->
+	<footer>
+		<p>Site by M4T1J4</p>
+	</footer>
+	<!-- footer end -->
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/skripta.js"></script>
+	<script src="../js/anim.js"></script>
+</body>
+
+</html>
